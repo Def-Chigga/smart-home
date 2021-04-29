@@ -1,0 +1,159 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页
+		{
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/register/index",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/checking/index",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/tabbar/home/index",
+			"style": {
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+			}
+		},
+		{
+			"path": "pages/tabbar/equip/list/index",
+			"style": {
+				"navigationBarTitleText": "添加设备"
+			}
+		},
+		{
+			"path": "pages/tabbar/equip/detail/index",
+			"style": {
+				"navigationBarTitleText": "智能存储"
+			}
+		},
+		{
+			"path": "pages/tabbar/home/manage/index",
+			"style": {
+				"navigationBarTitleText": "家庭管理"
+			}
+		},
+		{
+			"path": "pages/tabbar/home/manage/edit",
+			"style": {
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+			}
+		},
+		{
+			"path": "pages/tabbar/view/index",
+			"style": {
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+			}
+		},
+		{
+			"path": "pages/tabbar/view/info/index",
+			"style": {
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+			}
+		},
+		{
+			"path": "pages/tabbar/view/add/index",
+			"style": {
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+			}
+		},
+		{
+			"path": "pages/tabbar/equip/index",
+			"style": {
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+			}
+		},
+		{
+			"path": "pages/tabbar/user/index",
+			"style": {
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+			}
+		},
+		{
+			"path": "pages/tabbar/user/info/index",
+			"style": {
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+			}
+		},
+		{
+			"path": "pages/tabbar/user/modify/name",
+			"style": {
+				"navigationBarTitleText": "修改昵称"
+			}
+		},
+		{
+			"path": "pages/tabbar/user/modify/signature",
+			"style": {
+				"navigationBarTitleText": "修改个性签名"
+			}
+		},
+		{
+			"path": "pages/tabbar/user/modify/phone",
+			"style": {
+				"navigationBarTitleText": "修改电话号码"
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#595959",
+		"selectedColor": "#d5bb97",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/tabbar/home/index",
+				"iconPath": "static/images/tabbar/tabbar-home.png",
+				"selectedIconPath": "static/images/tabbar/tabbar-home-active.png",
+				"text": "想家"
+			},
+			{
+				"pagePath": "pages/tabbar/view/index",
+				"iconPath": "static/images/tabbar/tabbar-view.png",
+				"selectedIconPath": "static/images/tabbar/tabbar-view-active.png",
+				"text": "场景"
+			},
+			{
+				"pagePath": "pages/tabbar/equip/index",
+				"iconPath": "static/images/tabbar/tabbar-equip.png",
+				"selectedIconPath": "static/images/tabbar/tabbar-equip-active.png",
+				"text": "设备"
+			},
+			{
+				"pagePath": "pages/tabbar/user/index",
+				"iconPath": "static/images/tabbar/tabbar-user.png",
+				"selectedIconPath": "static/images/tabbar/tabbar-user-active.png",
+				"text": "我的"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#ffffff",
+		"backgroundColor": "#f8f8f8"
+	}
+}
